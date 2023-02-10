@@ -16,7 +16,7 @@ project(FFT-Project)
 add_subdirectory(src)
 
 # OpenGL (glm)
-set(glm_DIR "${CMAKE_CURRENT_SOURCE_DIR}/extern/glm/cmake/glm/")
+set(glm_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib/glm/cmake/glm/")
 find_package(glm REQUIRED)
 
 #Add the main executable
