@@ -9,7 +9,7 @@ set(BASE_SOURCES
 #"${DIR}/gpumath.cu"
 #"${DIR}/gpumath.cuh"
 #"${DIR}/pch.cpp"
-#"${DIR}/pch.h"
+"${DIR}/pch.h"
 "${DIR}/stokes.cpp"
 "${DIR}/stokes.h"
 PARENT_SCOPE)
